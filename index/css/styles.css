@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', sans-serif; }
 
-p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
+p{ line-height: 1.6; font-size: 1.5em; font-weight: 400; color: #555;letter-spacing: 0.1em;display: inline-block;margin: 20px 0 0 0; }
 
 h1{ font-size: 3.5em; line-height: 1; }
 h2{ font-size: 3em; line-height: 1.1; }
@@ -110,15 +110,18 @@ b.light-color{ color: #444; }
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; }
+.main-area{ position: relative; height: 100vh; padding: 0 20px; background-size: cover; color: #fff;background-position: center; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: .4; background: #000; }
 
 .main-area .desc{ margin: 20px auto; max-width: 500px; }
 	
-.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
-	color: #fff; background: #F84982; }
+.main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid rgb(184, 35, 84);
+	color: #fff; background: rgb(231, 80, 131); }
+
+.main-area .mail{  border: none; width: 225px;padding: 3px 8x;
+	color: #fff; background: rgba(219, 0, 24,1); }
 
 .main-area .notify-btn:hover{ background: none; }
 
