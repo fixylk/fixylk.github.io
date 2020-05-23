@@ -14,10 +14,16 @@ $(window).on('load', function() {
 	--------------------*/
 	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
-
 });
 
+
 (function($) {
+	/*------------------
+		Header and footer
+	--------------------*/	
+	$("#header").load("header.html"); 
+	$("#footer").load("footer.html"); 
+
 	/*------------------
 		Navigation
 	--------------------*/
