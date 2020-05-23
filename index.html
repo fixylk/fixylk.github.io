@@ -30,32 +30,11 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-
+	
 	<!-- Header Section -->
-	<header class="header-section">
-		<div class="header-bottom">
-			<a href="index.html" class="site-logo">
-				<img src="img/logo.png" alt="">
-			</a>
-			<div class="container">
-				<ul class="main-menu">
-					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="classes.html">Our Services</a>
-						<ul class="sub-menu">
-							<li><a href="classes.html">Individual Services</a></li>
-							<li><a href="trainer.html">Service Organizations</a></li>
-						</ul>
-					</li>
-					<li><a href="about.html">Life with FIXY</a></li>
-					<li><a href="event-details.html">Boost your Business</a></li>
-					</li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
+	<div id="header"></div>
 	<!-- Header Section end -->
-
+	
 	<!-- Hero Section -->
 	<section class="hero-section">
 		<div class="hero-social-warp">
@@ -337,68 +316,7 @@
 	<!-- Trainer Section end -->
 
 	<!-- Footer Section -->
-	<footer class="footer-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget">
-						<div class="about-widget">
-							<img src="img/logo-3.png" alt="">
-							<p>Snap into a better lifestyle</p>
-							<ul>
-								<li><i class="material-icons">phone</i>(+94) 71 059 4504</li>
-								<li><i class="material-icons">email</i>contact@fixy.lk</li>
-								<li><i class="material-icons">map</i>No 294, Temple Road, Kelaniya</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget pl-0 pl-lg-5">
-						<h2 class="fw-title">Company</h2>
-						<ul>
-							<li><a href="#">Online Education</a></li>
-							<li><a href="#">Gallery</a></li>
-							<li><a href="#">Special Issues</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-2 col-sm-6">
-					<div class="footer-widget">
-						<h2 class="fw-title">About Us</h2>
-						<ul>
-							<li><a href="#">Our Vision</a></li>
-							<li><a href="#">Our Mission</a></li>
-							<li><a href="#">Meet The Team</a></li>
-							<li><a href="#">Introduce</a></li>
-							<li><a href="#">Customer Service</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<div class="footer-widget pl-0 pl-lg-5">
-						<h2 class="fw-title">Availability</h2>
-						<ul>
-							<li><i class="material-icons">alarm_on</i>24 X 7 Service</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="row">
-					<div class="col-md-4">
-					</div>
-					<div class="col-md-8 text-md-right">
-						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<div id="footer"></div>
 	<!-- Footer Section end -->
 
 	<div class="back-to-top"><img src="img/icons/up-arrow.png" alt=""></div>
@@ -412,6 +330,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		  $("#footer").load("footer.html"); 
+		});
+	</script> 
 	</body>
 </html>
