@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 /*
 * @ All pages Import
 */
-import HomeTwo from './pages/HomeTwo'
+import HomeOne from './pages/HomeOne'
 import Service from './pages/Service'
 import ServiceDetails from "./pages/ServiceDetails";
 import Team from "./pages/Team";
@@ -19,7 +19,7 @@ const App = () => {
         <Router>
             <ScrollToTop>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={HomeTwo}/>
+                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={HomeOne}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service}/>
                     <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} component={ServiceDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team}/>

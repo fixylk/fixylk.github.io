@@ -6,7 +6,6 @@ import About from '../components/About/home-one'
 import Features from '../components/Features'
 import Services from '../components/Services'
 import Team from "../components/Team/home-one";
-import Blog from "../components/Blog";
 import BrandLogo from "../components/BrandLogo";
 import Funfact from "../components/Funfact";
 import CallToAction from "../components/CallToAction";
@@ -25,7 +24,6 @@ const HomeOne = () => {
             <Services classes="sm-top-wt"/>
             <Testimonials/>
             <Team/>
-            <Blog/>
             <BrandLogo/>
             <Funfact/>
             <CallToAction/>
