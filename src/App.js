@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 /*
 * @ All pages Import
 */
-import Demo from './pages/Demo'
 import HomeOne from './pages/HomeOne'
 import HomeTwo from './pages/HomeTwo'
 import Service from './pages/Service'
@@ -27,7 +26,7 @@ const App = () => {
         <Router>
             <ScrollToTop>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Demo}/>
+                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={HomeTwo}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/home-one'}`} component={HomeOne}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/home-two'}`} component={HomeTwo}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service}/>
