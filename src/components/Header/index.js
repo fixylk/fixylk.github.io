@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import Logo from './Logo'
 import Navbar from './Navbar/Navbar'
-import HeaderConfig from './HeaderConfig'
 
 class Header extends Component{
 
@@ -32,10 +31,6 @@ class Header extends Component{
                             <div className="navigation-area mt-lg-3">
                                 <Navbar />
                             </div>
-                        </div>
-
-                        <div className="col-7 col-lg-3">
-                            <HeaderConfig logRegContentShow={this.props.logRegContentShow} mobileMenuShow={this.props.mobileMenuShow} />
                         </div>
                     </div>
                 </div>
