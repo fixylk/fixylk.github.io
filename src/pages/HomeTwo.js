@@ -7,7 +7,6 @@ import Services from '../components/Services'
 import Features from '../components/Features'
 import Testimonial from "../components/Testimonials/home-two";
 import Team from "../components/Team/home-two";
-import Blog from "../components/Blog";
 import BrandLogo from "../components/BrandLogo";
 import Funfact from "../components/Funfact";
 import CallToAction from "../components/CallToAction";
@@ -25,7 +24,6 @@ const HomeTwo = () => {
             <Features classes="sp-top"/>
             <Testimonial/>
             <Team/>
-            <Blog/>
             <BrandLogo/>
             <Funfact/>
             <CallToAction/>
