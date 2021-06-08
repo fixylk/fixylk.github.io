@@ -4,18 +4,7 @@
     "title": "Home",
     "link": "/",
     "megaMenu": false,
-    "subMenu": [
-      {
-        "id": 1.1,
-        "title": "Home 01",
-        "link": "/home-one"
-      },
-      {
-        "id": 1.2,
-        "title": "Home 02",
-        "link": "/home-two"
-      }
-    ]
+    "subMenu": false
   },
   {
     "id": 2,
@@ -40,38 +29,6 @@
   },
   {
     "id": 5,
-    "title": "Blog",
-    "link": "/blog-grid-right-sidebar",
-    "megaMenu": false,
-    "subMenu": [
-      {
-        "title": "Blog Grid Left Sidebar",
-        "link": "/blog-grid-left-sidebar"
-      },
-      {
-        "title": "Blog Grid Right Sidebar",
-        "link": "/blog-grid-right-sidebar"
-      },
-      {
-        "title": "Blog Grid Without Sidebar",
-        "link": "/blog-grid-without-sidebar"
-      },
-      {
-        "title": "Blog List Left Sidebar",
-        "link": "/blog-list-left-sidebar"
-      },
-      {
-        "title": "Blog List Right Sidebar",
-        "link": "/blog-list-right-sidebar"
-      },
-      {
-        "title": "Blog Details",
-        "link": "/blog/wild-life-workshop?id=14"
-      }
-    ]
-  },
-  {
-    "id": 6,
     "title": "Contact",
     "link": "/contact"
   }
