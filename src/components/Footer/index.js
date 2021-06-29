@@ -43,9 +43,10 @@ function Footer() {
                     <div className="col-md-4 col-lg-2 ml-auto">
                         <Widget title="Social Links">
                             <List classes="widget-list">
-                                <LI><Link to="https://facebook.com/hasthemes/" target={'_blank'}>Facebook</Link></LI>
-                                <LI><Link to="https://twitter.com/hasthemes/" target={'_blank'}>Twitter</Link></LI>
-                                <LI><Link to="https://www.instagram.com/" target={'_blank'}>Instagram</Link></LI>
+                                <LI><a href="https://www.linkedin.com/">LinkedIn</a></LI>
+                                <LI><a href="https://www.instagram.com/">Instagram</a></LI>
+                                <LI><a href="https://www.facebook.com/">Facebook</a></LI>
+                                <LI><a href="https://www.twitter.com/">Twitter</a></LI>
                             </List>
                         </Widget>
                     </div>
