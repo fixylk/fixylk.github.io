@@ -10,7 +10,7 @@ const BlogPage = ({sidebar_position,blog_type,sidebar}) => {
             <PageHeader
                 bgImg={require('../../assets/img/page-header.jpg')}
                 title={'From Businex Latest'}
-                content={'Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly.'}
+                content={'Transform new ideas into innovative products and services that can compete across both local and global markets.'}
             />
 
             <PageWrapper classes={'blog-page-content-area sp-y'}>

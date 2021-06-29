@@ -21,7 +21,7 @@ const PageService = () => {
             <PageHeader
                 bgImg={require('../assets/img/page-header.jpg')}
                 title="OUR SERVICES"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                content="Transform new ideas into innovative products and services that can compete across both local and global markets."
             />
             <PageAbout
                 title={'Our Services'}
