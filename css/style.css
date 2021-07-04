@@ -812,7 +812,8 @@ section.no-bg, #content.no-bg{
 footer {
 	background: #071C26;
 	color:#ffffff;
-	padding: 80px 0 40px 0;
+	height: 300px;
+	padding: 20px 0 20px 0;
 }
 
 footer.footer-light{
