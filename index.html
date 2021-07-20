@@ -34,6 +34,35 @@
 </head>
 
 <body>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "102202558821626");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v11.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <div id="wrapper">
         <!-- header begin -->
         <header class="header-light transparent scroll-light">
@@ -107,8 +136,8 @@
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3">
                             <div class="text-center">
-                                <h1><span class="uptitle id-color">Our Services</span></h1>
-                                <h3>As Fixy Innovations we offer a wide variety of services.</h3>
+                                <h2><span class="uptitle id-color">Our Services</span></h2>
+                                <p class="lead">As Fixy Innovations we offer a wide variety of services.</p>
                                 <div class="spacer-20"></div>
                             </div>
                         </div>
